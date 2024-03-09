@@ -1,4 +1,4 @@
-
+//product 
 using { sap.cap.ordershop as my } from '../db/schema';
 service productshop {
   entity product as projection on my.product
