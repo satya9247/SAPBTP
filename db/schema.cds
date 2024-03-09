@@ -46,7 +46,4 @@ entity product: additioninfo, managed, cuid
    
  
 
-    
-
- 
-
+   
