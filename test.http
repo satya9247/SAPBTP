@@ -1,0 +1,40 @@
+
+
+GET http://localhost:4004/odata/v4/productshop/product?$expand=ord
+
+//GET http://localhost:4004/odata/v4/productshop/product
+
+//GET http://localhost:4004/odata/v4/productshop/product?$expand=
+
+//GET http://localhost:4004/odata/v4/productshop/supplier
+
+
+//GET http://localhost:4004/odata/v4/productshop/supplier?$expand=product($select=name)
+
+#POST  http://localhost:4004/odata/v4/productshop/product
+#Content-Type: application/json
+
+//{
+    //"name" : "hondacity"
+//}
+
+//GET http://localhost:4004/odata/v4/productshop/addNumber(a=4,b=4)
+
+//GET  http://localhost:4004/odata/v4/productshop/product('1')
+
+//POST  http://localhost:4004/odata/v4/productshop/subractAction
+//Content-Type: application/json
+
+//{
+    //"a": 20,
+    //"b": 10
+
+//}
+
+
+//put http://localhost:4004/odata/v4/productshop/product('1')
+//Content-Type: application/json
+
+//{
+    //"stock": "46"
+//}

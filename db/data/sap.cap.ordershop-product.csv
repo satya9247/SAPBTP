@@ -1,0 +1,4 @@
+name,stock,cost_price,mfdate,expdate,color,supplier_ID,ord_ID
+maggi India,3,45000,20230212,20240623,red,1,1
+maggi america,5,500000,20230324,20240726,blue,1,1
+maggi japan,6,80000,20230418,20240912,green,3,2
